@@ -1,0 +1,25 @@
+{
+  "name": "da_burger",
+  "version": "1.0.0",
+  "description": "Devour the burger app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashleyw27/da_burger.git"
+  },
+  "author": "Ashley Wegwerth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ashleyw27/da_burger/issues"
+  },
+  "homepage": "https://github.com/Ashleyw27/da_burger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "handlebars-helper-css": "^0.1.0",
+    "mysql": "^2.17.1"
+  }
+}
