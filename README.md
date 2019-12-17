@@ -5,6 +5,7 @@ Hungry? The Eat da Burger application allows the user to pick the type of burger
 The user will type the name or description of the burger they are hungry for in the textbox and click "Add Burger". Upon clicking the "Add Burger" button the burger will appear in the "Burgers Ordered" section where the user can either devour the burger or delete it from their order. If the user decides to devour a burger it will then appear in the "Burgers Devoured" section where they will have the choice to either order the burger again by clicking the "Order Up!" button or delete it forever.
 
 Does this sound delicious to you?
+
 [Click here to try 'Eat da Burger'!](https://note-taker-application.herokuapp.com/)
 
 
