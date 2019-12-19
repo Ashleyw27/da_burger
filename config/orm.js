@@ -41,6 +41,7 @@ var orm = {
     });
   },
 
+  //UPDATE
   updateTwo: function(id, cb) {
     var queryString = "UPDATE burgers SET ? WHERE ?";
     console.log(queryString);
