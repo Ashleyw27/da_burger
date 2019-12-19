@@ -41,6 +41,18 @@ var orm = {
     });
   },
 
+  updateTwo: function(id, cb) {
+    var queryString = "UPDATE burgers SET ? WHERE ?";
+    console.log(queryString);
+    connection.query(queryString, [{devoured: false}, {id: id}], function(err, result) {
+      if (err) {
+        throw err;
+      }
+
+      cb(result);
+    });
+  },
+
   //DELETE
   delete: function(id, cb) {
     var queryString = "DELETE FROM burgers WHERE ?";

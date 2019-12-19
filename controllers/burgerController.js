@@ -35,6 +35,17 @@ router.put("/api/burgers/:id", function(req, res) {
   });
 });
 
+//PUT (update)
+router.put("/api/burgersTwo/:id", function(req, res) {
+  var condition = req.params.id;
+
+  console.log("condition", condition);
+
+  burger.updateTwo(condition, function(result) {
+    res.json(result);
+  });
+});
+
 //DELETE (delete)
 router.delete("/api/burgers/:id", function(req, res) {
   var condition = req.params.id;
