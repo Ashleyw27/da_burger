@@ -32,5 +32,6 @@ I learned many new concepts and skills while creating the Eat da Burger applicat
 * Proper folder structure to ensure all files know where to find each other
 * Callbacks
 * MVC (Model, View, Controller)
+* Deploying to Heroku
 
 
